@@ -250,10 +250,17 @@ kubectl get services
 ## Reach out to me for any queries 
 
 ## Implementation Screenshots
-![image](https://github.com/user-attachments/assets/bf6d0f51-9d47-4806-8ce1-414fbc4ae42c)
-![image](https://github.com/user-attachments/assets/8dd6055f-82d7-4de3-8961-2dd21eb30735)
-![image](https://github.com/user-attachments/assets/7863e064-3a34-413a-97df-769725e3dd1d)
-![image](https://github.com/user-attachments/assets/c533c0b3-803e-4af3-b2d7-c70a2a01d575)
+![Screenshot (140)](https://github.com/user-attachments/assets/2750ecf2-3f3e-41c5-8953-c0b850e4b7af)
+
+![Screenshot (138)](https://github.com/user-attachments/assets/4a98ca8a-cfe2-4e40-996a-7581b8a08cff)
+
+![Screenshot (134)](https://github.com/user-attachments/assets/653ed7a8-025b-463f-b3b9-9f58bd511c88)
+
+![Screenshot (135)](https://github.com/user-attachments/assets/60ade93f-5a49-4439-a4e9-2ffcd6b5c742)
+
+![Screenshot (136)](https://github.com/user-attachments/assets/31463466-d027-482e-b227-1ad40c7a855a)
+
+![Screenshot (137)](https://github.com/user-attachments/assets/48b78f26-bd35-4f3e-94ef-ffa684e748bb)
 
 
 
