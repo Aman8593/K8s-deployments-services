@@ -241,10 +241,19 @@ Get the Service IP
 ```bash
 kubectl get services
 ```
-
-
 ## Access Your Application:
 
 - **If you used LoadBalancer, you can access your application at http://<EXTERNAL-IP>.**
 - **If you used NodePort, you need to access it via one of your node's IP addresses along with the NodePort assigned.**
 - **For example, if your node IP is 192.168.99.100 and the NodePort is 30000, you would access it at http://192.168.99.100:30000**
+
+## Reach out to me for any queries 
+
+## Implementation Screenshots
+![image](https://github.com/user-attachments/assets/bf6d0f51-9d47-4806-8ce1-414fbc4ae42c)
+![image](https://github.com/user-attachments/assets/8dd6055f-82d7-4de3-8961-2dd21eb30735)
+![image](https://github.com/user-attachments/assets/7863e064-3a34-413a-97df-769725e3dd1d)
+![image](https://github.com/user-attachments/assets/c533c0b3-803e-4af3-b2d7-c70a2a01d575)
+
+
+
