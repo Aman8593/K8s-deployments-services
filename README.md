@@ -242,7 +242,7 @@ Get the Service IP
 kubectl get services
 ```
 # 📌 Impoertant Note on Deployment and Services:
-**Kubernetes deployment is in charge with keeping the pods running in the cluster, a service is in charge of granting network access to those pods.**
+**Kubernetes deployment is in charge with `keeping the pods running in the cluster`, a service is in charge of `granting network access to those pods`.**
 
 ---
 
