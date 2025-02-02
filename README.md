@@ -241,6 +241,51 @@ Get the Service IP
 ```bash
 kubectl get services
 ```
+# 📌 Impoertant Note on Deployment and Services:
+**Kubernetes deployment is in charge with keeping the pods running in the cluster, a service is in charge of granting network access to those pods.**
+
+---
+
+## 📌 Introduction
+This guide explains the purpose and usage of `deployment.yaml` and `service.yaml` in Kubernetes. These files help manage applications in a Kubernetes cluster by defining how they run and how they are exposed.
+
+---
+
+## 🚀 What is `deployment.yaml`?
+A **Deployment** in Kubernetes manages the lifecycle of application instances (Pods). It ensures that the desired number of replicas are running and handles updates smoothly.
+
+### **🔧 Key Components of `deployment.yaml`**
+- **`replicas`**: Number of pod instances.
+- **`selector`**: Identifies the pods this deployment manages.
+- **`template`**: Defines the pod specification (containers, images, ports, etc.).
+
+---
+
+## 🌍 What is `service.yaml`?
+A **Service** in Kubernetes provides a stable endpoint to expose pods to other services or external users. It allows communication between different components of an application.
+
+### **🔧 Key Components of `service.yaml`**
+- **`selector`**: Identifies the pods this service routes traffic to.
+- **`ports`**: Defines the exposed ports.
+- **`type`**: Specifies the exposure method (`ClusterIP`, `NodePort`, `LoadBalancer`).
+
+---
+
+## 📌 Summary Table
+| File               | Purpose |
+| ---- | --- |
+| `deployment.yaml` | Defines how many instances (pods) of an application should run and manages updates. |
+| `service.yaml`    | Exposes the pods internally or externally to make them accessible. |
+
+---
+
+## 🎯 Next Steps
+- 📖 Learn more about Kubernetes [here](https://kubernetes.io/docs/concepts/)
+- 🔥 Experiment with different `Service` types (`NodePort`, `LoadBalancer`)
+- 🛠️ Try rolling updates and scaling using `kubectl scale`
+
+---
+
 ## Access Your Application:
 
 - **If you used LoadBalancer, you can access your application at http://<EXTERNAL-IP>.**
